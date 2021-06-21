@@ -1,0 +1,14 @@
+{
+  "name": "@d3/line-with-missing-data",
+  "main": "d6da1fe472eb4acb@211.js",
+  "version": "211.0.0",
+  "homepage": "https://observablehq.com/@d3/line-with-missing-data",
+  "author": {
+    "name": "D3",
+    "url": "https://observablehq.com/@d3"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

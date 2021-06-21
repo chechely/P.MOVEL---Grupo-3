@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "ask-run-time-android-permission",
+    "slug": "snack-46650449-063b-40f3-b661-195e7cf72302",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

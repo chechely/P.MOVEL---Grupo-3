@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "keep-the-screen-awake-on",
+    "slug": "snack-363a5a84-f866-4843-907f-222fca89b61d",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

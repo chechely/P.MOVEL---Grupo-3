@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "custom-star-rating-bar",
+    "slug": "snack-fe99da37-0e9f-48d4-994d-dc9a6af05fa6",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Avaliação por estrela "
+  }
+}

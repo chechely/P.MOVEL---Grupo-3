@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "control-device-brightness",
+    "slug": "snack-e38f94c1-57ce-48cf-8ddb-de3df5bcbe37",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

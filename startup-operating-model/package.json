@@ -1,0 +1,14 @@
+{
+  "name": "@observablehq/startup-operating-model",
+  "main": "d386d25b0df1b4ed@1111.js",
+  "version": "1111.0.0",
+  "homepage": "https://observablehq.com/@observablehq/startup-operating-model",
+  "author": {
+    "name": "Observable",
+    "url": "https://observablehq.com/@observablehq"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
