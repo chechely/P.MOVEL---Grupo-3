@@ -11,7 +11,8 @@ const MyComponent = () => {
 
   return (
     <View style={styles.container}>
-      <Button onPress={onToggleSnackBar}>{visible ? 'Hide' : 'Show'}</Button>
+      <Text style = {styles.title}>SnackBar</Text>
+      <Button style={styles.botao} onPress={onToggleSnackBar}>{visible ? 'Esconder' : 'Mostrar'}</Button>
       <Snackbar
         visible={visible}
         onDismiss={onDismissSnackBar}
@@ -19,6 +20,12 @@ const MyComponent = () => {
           label: 'Fechar',
           onPress: () => {
             //alguma ação
+          },
+        }} 
+        theme ={{
+          colors: {
+            onSurface: "#4B0082",
+            accent: '#FFF'
           },
         }}>
         Isto é uma SnackBar
@@ -30,9 +37,18 @@ const MyComponent = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
     alignItems: 'center',
     padding: 50
+  },
+  botao:{
+    backgroundColor: '#E6E6FA',
+    fontWeight: 'bold',
+    marginVertical: 20,
+  },
+  title:{
+    fontSize: 24,
+    fontWeight: 'bold'
   },
 });
 
